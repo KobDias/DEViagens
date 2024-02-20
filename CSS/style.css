@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #253C59 */
+/* #5D7A8C */
+/* #99B4BF */
+/* #D9B70D */
+/* #BF8D30 */
+
+body{
+    background-color: #253C59;
+}
+
+nav{ 
+    font-family: "Playfair Display", serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    border-left: 3px solid #253C59;
+    padding-left: 8px;
+    font-weight: 500;
+}
+li:hover{
+    font-weight: 500px;
+    border-left: 3px dotted;
+}
+a{
+    text-decoration: none;
+    color: #253C59;
+}
+
+header{
+    justify-content: space-between;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    background: #f5eeee;
+    color: #253C59;
+}
+#nome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:  bold;
+}
